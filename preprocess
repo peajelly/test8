@@ -1,0 +1,45 @@
+#include <opencv2/opencv.hpp>  
+#include <cmath>  
+  
+int main() {  
+    // 读取原始图像  
+    cv::Mat image = cv::imread("a.jpg");  
+  
+    // 获取原始图像的宽、高和通道数  
+    int original_height, original_width, channels;  
+    channels = image.channels();  
+    original_height = image.rows;  
+    original_width = image.cols;  
+  
+    // 缩放比例  
+    double scale = std::min(320.0 / original_width, 320.0 / original_height);  
+  
+    // 缩放图像  
+    cv::Mat scaled_image;  
+    cv::resize(image, scaled_image, cv::Size(), scale, scale, cv::INTER_LINEAR);  
+  
+    // 获取缩放后的图像宽、高和通道数  
+    int scaled_height, scaled_width;  
+    scaled_height = scaled_image.rows;  
+    scaled_width = scaled_image.cols;  
+  
+    // 计算填充的宽和高  
+    int padding_width_l = (320 - scaled_width) / 2;  
+    int padding_width_r = 320 - padding_width_l - scaled_width;  
+    int padding_height_t = (320 - scaled_height) / 2;  
+    int padding_height_b = 320 - padding_height_t - scaled_height;  
+  
+    // 填充图像（在右侧和底部填充）  
+    cv::Mat filled_image;  
+    cv::copyMakeBorder(scaled_image, filled_image, padding_height_t, padding_height_b, padding_width_l, padding_width_r, cv::BORDER_CONSTANT, cv::Scalar(0, 0, 0));  
+  
+    // 归一化  
+    //cv::Mat normalized_image;  
+    //cv::normalize(filled_image, normalized_image, 0.0, 1.0, cv::NORM_MINMAX, cv::CV_32F);  
+    cv::Mat result = filled_image / 255.0;
+  
+    // 保存处理后的图像  
+    cv::imwrite("b.jpg", result);  
+  
+    return 0;  
+}

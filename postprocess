@@ -1,0 +1,67 @@
+#include <iostream>  
+#include <vector>  
+#include <opencv2/opencv.hpp>  
+  
+using namespace std;  
+using namespace cv;  
+  
+int main() {  
+    // 假设output_var是84x2100的矩阵  
+    Mat output_var = Mat::zeros(84, 2100, CV_32F);  
+  
+    // 获取矩阵的元素  
+    vector<float> cx, cy, w, h;  
+
+    for (int j = 0; j < 2100; j++) {  
+        cx.push_back(output_var.at<float>(i, j));  
+        cy.push_back(output_var.at<float>(i + 1, j));  
+        w.push_back(output_var.at<float>(i+ 2, j));  
+        h.push_back(output_var.at<float>(i+ 3, j));  
+        }  
+      
+  
+    // [cx, cy, w, h] -> [y0, x0, y1, x1]  
+    for (int i = 0; i < 2100; i++) {  
+        float x0 = cx[i] - w[i] * 0.5;  
+        float y0 = cy[i] - h[i] * 0.5;  
+        float x1 = cx[i] + w[i] * 0.5;  
+        float y1 = cy[i] + h[i] * 0.5;  
+        boxes.push_back(Vec4f(x0, y0, x1, y1));  
+    }  
+  
+    // get max prob and idx  
+    vector<float> scores;  
+    vector<int> class_ids;  
+     
+    vector<float> prediction(80);
+    for(int j=0;j<2100;j++)
+    {
+      for(int i=4;i<84;i++)
+      {
+        prediction[i-4]= output_var.at<float>(i, j);
+      }
+      scores.push_back(prediction);
+    }
+
+
+
+
+    /************************************************************************************************/
+    //下面没改，不能用  建议后处理流程参考NCNN，因为NCNN解码成84*2100之后是对普通mat矩阵进行操作的
+    for (int i = 0; i < 84; i++) {  
+        for (int j = 0; j < 2100; j++) {  
+            class_ids.push_back(argmax(scores.begin(), scores.end(), [](float a, float b) {return a > b; }));  
+        }  
+    }  
+  
+    // nms result box, score, ids  
+    vector<Vec4f> result_boxes;  
+    vector<float> result_scores;  
+    vector<int> result_class_ids;  
+    for (int i = 0; i < boxes.size(); i++) {  
+        if (class_ids[i] == argmax(scores.begin() + i * 5 + 4, scores.begin() + i * 5 + 4 + 2100)) {  
+            result_boxes.push_back(boxes[i]);  
+            result_scores.push_back(scores[i * 5 + 4]);  
+            result_class_ids.push_back(class_ids[i]);  
+        }  
+    }

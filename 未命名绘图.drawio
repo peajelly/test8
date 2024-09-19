@@ -3832,19 +3832,19 @@
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UrnKpyKE6RVP-iIU0Zrk-16" target="UrnKpyKE6RVP-iIU0Zrk-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DPSC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DSConv&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1060" y="4906" width="116.71" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UrnKpyKE6RVP-iIU0Zrk-17" target="UrnKpyKE6RVP-iIU0Zrk-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DPSC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DSConv&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1130" y="4906" width="116.71" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UrnKpyKE6RVP-iIU0Zrk-18" target="UrnKpyKE6RVP-iIU0Zrk-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-18" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DPSC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-18" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DSConv&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1200" y="4906" width="116.71" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UrnKpyKE6RVP-iIU0Zrk-19" target="UrnKpyKE6RVP-iIU0Zrk-21" edge="1">
@@ -3889,7 +3889,7 @@
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Convs&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1304.17" y="5131.99" width="102.81" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GPE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#f9f06b;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GPC&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#f9f06b;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1088.73" y="5134.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UrnKpyKE6RVP-iIU0Zrk-31" target="UrnKpyKE6RVP-iIU0Zrk-33" edge="1">
@@ -3944,7 +3944,7 @@
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Maxpool &lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1217.7199999999996" y="5177.99" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-60" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;DPSC&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="UrnKpyKE6RVP-iIU0Zrk-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;DSConv&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1355.27" y="5011" width="68.63" height="19" as="geometry" />
         </mxCell>
         <mxCell id="UrnKpyKE6RVP-iIU0Zrk-61" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;DPSC&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">

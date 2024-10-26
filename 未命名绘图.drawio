@@ -15299,6 +15299,12 @@
         <mxCell id="Wa3mILukE2z4B3Q7lBQm-572" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;Global Block&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;fillColor=#fcddc8;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3083.56" y="7098.769999999999" width="124.88" height="55.13" as="geometry" />
         </mxCell>
+        <mxCell id="cYR52l_tL4a9mut_XlGV-8" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;exitX=0.5;exitY=0.418;exitDx=0;exitDy=0;exitPerimeter=0;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2875.1400000000012" y="6960.026" as="sourcePoint" />
+            <mxPoint x="2875" y="6799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="omdvlcshd-hDZNbqysC2-36" value="未命名图层" parent="0" />
         <mxCell id="omdvlcshd-hDZNbqysC2-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#c01c28;strokeWidth=4;" parent="omdvlcshd-hDZNbqysC2-36" vertex="1">
           <mxGeometry x="-5014.12" y="-812.8600000000001" width="247.5" height="247.5" as="geometry" />

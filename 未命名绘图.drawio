@@ -15216,7 +15216,7 @@
         </mxCell>
         <mxCell id="Wa3mILukE2z4B3Q7lBQm-519" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Wa3mILukE2z4B3Q7lBQm-515" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2907" y="7100" as="sourcePoint" />
+            <mxPoint x="2905" y="7100" as="sourcePoint" />
             <mxPoint x="2976.0499999999997" y="7099.299999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>

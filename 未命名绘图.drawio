@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="10068" dy="2478" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="9818" dy="2346" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="QQGQG7xHr_MRtr_uuWap-1" parent="0" style="" />
@@ -2489,7 +2489,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xRpcLFZMCv4M4LG1q1dI-147" parent="QQGQG7xHr_MRtr_uuWap-1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot;&gt;输入序列&lt;/font&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="77" x="-3102" y="8847" as="geometry" />
+          <mxGeometry height="30" width="77" x="-3095" y="8847" as="geometry" />
         </mxCell>
         <mxCell id="xRpcLFZMCv4M4LG1q1dI-148" parent="QQGQG7xHr_MRtr_uuWap-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cbad;" value="" vertex="1">
           <mxGeometry height="30.07" width="47" x="-2940" y="8960.95" as="geometry" />
